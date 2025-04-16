@@ -1,1 +1,41 @@
-
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Recipe Finder</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <div class="recipe-container">
+        <h1>Recipe Finder</h1>
+        <div class="search-container">
+            <input type="text" id="search-input" placeholder="Search for recipes...">
+            <button id="search-btn">Search</button>
+        </div>
+        <div class="filters">
+            <select id="meal-type">
+                <option value="">All Meal Types</option>
+                <option value="breakfast">Breakfast</option>
+                <option value="lunch">Lunch</option>
+                <option value="dinner">Dinner</option>
+                <option value="dessert">Dessert</option>
+                <option value="snack">Snack</option>
+            </select>
+            <select id="diet">
+                <option value="">All Diets</option>
+                <option value="vegetarian">Vegetarian</option>
+                <option value="vegan">Vegan</option>
+                <option value="gluten-free">Gluten Free</option>
+                <option value="keto">Keto</option>
+            </select>
+        </div>
+        <div class="recipes" id="recipes">
+            <div class="placeholder">
+                <p>Search for recipes to get started</p>
+            </div>
+        </div>
+    </div>
+    <script src="script.js"></script>
+</body>
+</html>
