@@ -1,0 +1,105 @@
+/* Body Styling */
+body {
+    font-family: 'Helvetica Neue', Arial, sans-serif;
+    background-color: #f0f2f5;
+    padding: 3rem 1rem;
+    max-width: 500px;
+    margin: auto;
+    border-radius: 10px;
+    box-shadow: 0 4px 20px rgba(0, 0, 0, 0.1); /* Subtle shadow for depth */
+  }
+  
+  /* Container for Inputs and Entries */
+  .container {
+    background-color: #fff;
+    border-radius: 8px;
+    padding: 2rem;
+    box-shadow: 0 2px 12px rgba(0, 0, 0, 0.05);
+  }
+  
+  /* Form Inputs */
+  input[type="text"], input[type="number"] {
+    width: 100%;
+    padding: 0.9rem;
+    margin-bottom: 1.5rem;
+    border: 1px solid #e1e5ea;
+    border-radius: 8px;
+    font-size: 1rem;
+    background-color: #f9f9f9;
+    transition: all 0.3s ease-in-out;
+  }
+  
+  input[type="text"]:focus, input[type="number"]:focus {
+    border-color: #6c63ff;
+    background-color: #fff;
+    outline: none;
+    box-shadow: 0 0 8px rgba(108, 99, 255, 0.3); /* Focus glow */
+  }
+  
+  /* Button Styling */
+  button {
+    width: 100%;
+    padding: 1rem;
+    background-color: #6c63ff;
+    color: #fff;
+    font-size: 1.1rem;
+    border: none;
+    border-radius: 8px;
+    cursor: pointer;
+    transition: background-color 0.3s ease-in-out;
+    box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
+  }
+  
+  button:hover {
+    background-color: #5a52d2;
+  }
+  
+  /* Entries List */
+  #list {
+    margin-top: 2rem;
+  }
+  
+  .entry {
+    padding: 1rem;
+    background-color: #fff;
+    margin-bottom: 1rem;
+    border-radius: 8px;
+    box-shadow: 0 2px 10px rgba(0, 0, 0, 0.05);
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    font-size: 1rem;
+    transition: transform 0.2s ease;
+  }
+  
+  .entry:hover {
+    transform: translateY(-5px); /* Hover effect for entries */
+  }
+  
+  /* Amount Styling */
+  .amount {
+    font-weight: 600;
+    font-size: 1.2rem;
+  }
+  
+  .plus {
+    color: #28a745; /* Green for income */
+  }
+  
+  .minus {
+    color: #dc3545; /* Red for expenses */
+  }
+  
+  /* Total Section */
+  #total {
+    text-align: center;
+    font-size: 1.5rem;
+    font-weight: 600;
+    color: #333;
+    padding-top: 1rem;
+    margin-top: 2rem;
+    background-color: #fff;
+    border-radius: 8px;
+    box-shadow: 0 2px 10px rgba(0, 0, 0, 0.1);
+  }
+  
