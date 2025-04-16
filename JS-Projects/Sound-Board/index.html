@@ -1,1 +1,27 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Sound Board</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <div class="container">
+        <h2>🎵 Sound Board 🎵</h2>
+        <div class="buttons">
+            <button onclick="playSound('applause')">👏 Applause</button>
+            <button onclick="playSound('boo')">😒 Boo</button>
+            <button onclick="playSound('laugh')">😂 Laugh</button>
+            <button onclick="playSound('drum')">🥁 Drum Roll</button>
+        </div>
+    </div>
 
+    <audio id="applause" src="sounds/applause.mp3"></audio>
+    <audio id="boo" src="sounds/boo.mp3"></audio>
+    <audio id="laugh" src="sounds/laugh.mp3"></audio>
+    <audio id="drum" src="sounds/drum-roll.mp3"></audio>
+
+    <script src="script.js"></script>
+</body>
+</html>
