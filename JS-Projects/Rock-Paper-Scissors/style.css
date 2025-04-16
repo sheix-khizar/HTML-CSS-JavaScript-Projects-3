@@ -1,0 +1,19 @@
+body {
+    height: 100vh;
+    width: 100%;
+    font-family: sans-serif;
+    text-align: center;
+    padding-top: 2rem;
+    background-color: rgb(7, 204, 106)
+}
+
+button {
+    font-size: 2rem;
+    margin: 1rem;
+    padding: 1rem;
+}
+
+#result {
+    font-size: 1.5rem;
+    margin-top: 2rem;
+}
