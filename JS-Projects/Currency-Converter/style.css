@@ -1,0 +1,105 @@
+body {
+    font-family: 'Poppins', sans-serif;
+    background: linear-gradient(135deg, #ff7676, #f54ea2);
+    min-height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin: 0;
+    padding: 20px;
+}
+
+.converter-container {
+    background-color: rgba(255, 255, 255, 0.95);
+    border-radius: 15px;
+    box-shadow: 0 10px 30px rgba(0, 0, 0, 0.15);
+    padding: 30px;
+    width: 100%;
+    max-width: 450px;
+}
+
+h1 {
+    color: #333;
+    text-align: center;
+    margin-bottom: 30px;
+}
+
+.input-group {
+    display: flex;
+    margin-bottom: 20px;
+    border: 2px solid #eee;
+    border-radius: 8px;
+    overflow: hidden;
+}
+
+input {
+    flex: 2;
+    padding: 12px 15px;
+    border: none;
+    font-size: 16px;
+    outline: none;
+}
+
+select {
+    flex: 1;
+    padding: 12px;
+    border: none;
+    background-color: #f8f9fa;
+    font-size: 16px;
+    cursor: pointer;
+    outline: none;
+}
+
+.swap-btn-container {
+    display: flex;
+    justify-content: center;
+    margin: 10px 0;
+}
+
+#swap-btn {
+    background-color: transparent;
+    color: #f54ea2;
+    border: 2px solid #f54ea2;
+    border-radius: 8px;
+    padding: 8px 20px;
+    font-size: 14px;
+    cursor: pointer;
+    transition: all 0.3s;
+}
+
+#swap-btn:hover {
+    background-color: #f54ea2;
+    color: white;
+}
+
+#convert-btn {
+    width: 100%;
+    padding: 14px;
+    background-color: #f54ea2;
+    color: white;
+    border: none;
+    border-radius: 8px;
+    font-size: 16px;
+    font-weight: bold;
+    cursor: pointer;
+    transition: background-color 0.3s;
+    margin-top: 10px;
+}
+
+#convert-btn:hover {
+    background-color: #d83d8a;
+}
+
+.rate-info {
+    margin-top: 20px;
+    padding: 15px;
+    background-color: #f8f9fa;
+    border-radius: 8px;
+    text-align: center;
+    font-size: 14px;
+    color: #555;
+}
+
+#converted-amount {
+    background-color: #f8f9fa;
+}
