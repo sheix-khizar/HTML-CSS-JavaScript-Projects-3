@@ -24,9 +24,6 @@ Welcome to my collection of **mini JavaScript projects** built with **HTML, CSS,
 - **CSS3**
 - **Vanilla JavaScript (ES6+)**
 
-## 📁 Folder Structure
-
-
 
 ## 💡 How to Run Locally
 
