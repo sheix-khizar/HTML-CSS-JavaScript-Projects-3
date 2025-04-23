@@ -45,7 +45,8 @@ Got ideas or improvements?
 Fork this repo and send a pull request — all contributions are welcome!
 
 
-📫 Contact
+📫 Contact 
+<br>
 Feel free to connect or leave feedback:
 
 
