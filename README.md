@@ -44,7 +44,10 @@ Open index.html in your browser to run it locally.
 Got ideas or improvements?
 Fork this repo and send a pull request — all contributions are welcome!
 
+
 📫 Contact
 Feel free to connect or leave feedback:
+
+
 📬 GitHub Profile: https://github.com/sheix-khizar
 
