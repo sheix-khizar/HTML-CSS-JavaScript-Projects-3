@@ -1,6 +1,6 @@
 # Simple HTML, CSS & JavaScript Projects
 
-Welcome to my collection of **10 mini JavaScript projects** built with **HTML, CSS, and Vanilla JS**. These beginner-friendly apps are great for learning core concepts through fun and useful mini-tools. 🎯
+Welcome to my collection of **mini JavaScript projects** built with **HTML, CSS, and Vanilla JS**. These beginner-friendly apps are great for learning core concepts through fun and useful mini-tools. 🎯
 
 ## 🔗 Live Demos
 
@@ -15,7 +15,6 @@ Welcome to my collection of **10 mini JavaScript projects** built with **HTML, C
 | 🍲 Recipe Finder               | Find recipes based on ingredients you enter     | [Live Demo](https://recipe-finder-two-coral.vercel.app/) |
 | ✊✋✌️ Rock Paper Scissors      | Classic rock-paper-scissors game                | [Live Demo](https://rock-paper-scissors-beryl-one-85.vercel.app/) |
 | 🎧 Sound Board                 | Plays sounds on button click                    | [Live Demo](https://sound-board-swart.vercel.app/) |
-| ⏱️ Stopwatch                   | Start, pause, and reset a timer                 | **[Coming Soon!]** |
 
 ---
 
@@ -24,7 +23,6 @@ Welcome to my collection of **10 mini JavaScript projects** built with **HTML, C
 - **HTML5**
 - **CSS3**
 - **Vanilla JavaScript (ES6+)**
-- **Fetch API** (for joke/quote apps)
 
 ## 📁 Folder Structure
 
